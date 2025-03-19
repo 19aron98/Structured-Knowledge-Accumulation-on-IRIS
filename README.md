@@ -41,9 +41,11 @@ SKA's learning process can be summarized in three main steps:
 * At each step, the entropy $$H^{(l)} = -\frac{1}{\ln 2} \sum_{k=1}^{K} Z_k \cdot \Delta D_k$$ is computed and minimized.
 * Weights are updated using local entropy gradients, aligning knowledge structures with decision probabilities.
 
-4. Self-Organizing Learning:
+3. Self-Organizing Learning:
 * Knowledge accumulation progresses hierarchically through layers.
 * Unlike backpropagation, SKA does not require repeated error correction but instead optimizes knowledge alignment over time.
+
+![Entropy Evolution Across Layers](C:\Users\Swapnil Singh\Desktop\Assingment\Entropy Evolution Across Layers.png)
 
 ## Performance & Results
 1. SKA Model Behavior:
