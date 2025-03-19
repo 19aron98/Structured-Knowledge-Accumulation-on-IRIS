@@ -45,16 +45,27 @@ SKA's learning process can be summarized in three main steps:
 * Knowledge accumulation progresses hierarchically through layers.
 * Unlike backpropagation, SKA does not require repeated error correction but instead optimizes knowledge alignment over time.
 
-![Entropy Evolution Across Layers](C:\Users\Swapnil Singh\Desktop\Assingment\Entropy Evolution Across Layers.png)
-
 ## Performance & Results
 1. SKA Model Behavior:
 - Consistently reduces entropy layer by layer.
 - Retrieval function demonstrates how SKA clusters knowledge efficiently.
+
+<p align="center">
+  <img src="https://github.com/19aron98/Structured-Knowledge-Accumulation-on-IRIS/blob/main/Entropy%20Evolution%20Across%20Layers.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/19aron98/Structured-Knowledge-Accumulation-on-IRIS/blob/main/Output%20Decision%20Probability%20Evolution%20Across%20Steps.png">
+</p>
+
+  
 2. Comparison with Backpropagation:
 - While traditional methods show steady accuracy improvements, SKA shows a different convergence pattern.
 - Lower entropy correlates with improved classification performance, but fine-tuning is required to match backpropagation accuracy.
 
+<p align="center">
+  <img src="https://github.com/19aron98/Structured-Knowledge-Accumulation-on-IRIS/blob/main/Combined%20Analysis.png">
+</p>
 
 ## References
 - SKA Framework: Quantiota Research
