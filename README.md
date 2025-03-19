@@ -29,3 +29,32 @@ The implementation consists of the following key components:
 4. Comparison with Traditional Neural Networks
 - A conventional feedforward neural network trained using backpropagation is implemented for comparison.
 - The accuracy of both methods is compared to analyze learning efficiency and entropy dynamics.
+
+## How SKA Works
+SKA's learning process can be summarized in three main steps:
+
+1. Forward Passes:
+* Each layer processes input data, producing knowledge representations.
+* Knowledge is structured through sigmoid activation, which emerges naturally from entropy reduction.
+
+2. Entropy Minimization:
+At each step, the entropy H = -1/ln(2) ∑ Z · ΔD is computed and minimized.
+Weights are updated using local entropy gradients, aligning knowledge structures with decision probabilities.
+
+4. Self-Organizing Learning:
+Knowledge accumulation progresses hierarchically through layers.
+Unlike backpropagation, SKA does not require repeated error correction but instead optimizes knowledge alignment over time.
+
+## Performance & Results
+1. SKA Model Behavior:
+- Consistently reduces entropy layer by layer.
+- Retrieval function demonstrates how SKA clusters knowledge efficiently.
+2. Comparison with Backpropagation:
+- While traditional methods show steady accuracy improvements, SKA shows a different convergence pattern.
+- Lower entropy correlates with improved classification performance, but fine-tuning is required to match backpropagation accuracy.
+
+
+## References
+- SKA Framework: Quantiota Research
+- Original Paper on SKA: "Structured Knowledge Accumulation: An Autonomous Framework for Layer-Wise Entropy Reduction in Neural Learning" (Bouarfa Mahi, Quantiota)
+- Scikit-learn Documentation: Iris Dataset
