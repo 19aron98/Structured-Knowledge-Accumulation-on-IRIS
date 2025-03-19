@@ -38,12 +38,12 @@ SKA's learning process can be summarized in three main steps:
 * Knowledge is structured through sigmoid activation, which emerges naturally from entropy reduction.
 
 2. Entropy Minimization:
-At each step, the entropy H = -1/ln(2) ∑ Z · ΔD is computed and minimized.
-Weights are updated using local entropy gradients, aligning knowledge structures with decision probabilities.
+* At each step, the entropy $H = -1/ln(2) ∑ Z · ΔD$ is computed and minimized.
+* Weights are updated using local entropy gradients, aligning knowledge structures with decision probabilities.
 
 4. Self-Organizing Learning:
-Knowledge accumulation progresses hierarchically through layers.
-Unlike backpropagation, SKA does not require repeated error correction but instead optimizes knowledge alignment over time.
+* Knowledge accumulation progresses hierarchically through layers.
+* Unlike backpropagation, SKA does not require repeated error correction but instead optimizes knowledge alignment over time.
 
 ## Performance & Results
 1. SKA Model Behavior:
