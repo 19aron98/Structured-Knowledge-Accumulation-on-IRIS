@@ -38,7 +38,7 @@ SKA's learning process can be summarized in three main steps:
 * Knowledge is structured through sigmoid activation, which emerges naturally from entropy reduction.
 
 2. Entropy Minimization:
-* At each step, the entropy $H = -1/ln(2) ∑ Z · ΔD$ is computed and minimized.
+* At each step, the entropy H^{(l)} = -\frac{1}{\ln 2} \sum_{k=1}^{K} Z_k \cdot \Delta D_k is computed and minimized.
 * Weights are updated using local entropy gradients, aligning knowledge structures with decision probabilities.
 
 4. Self-Organizing Learning:
