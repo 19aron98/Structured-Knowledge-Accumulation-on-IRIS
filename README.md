@@ -56,5 +56,5 @@ SKA's learning process can be summarized in three main steps:
 
 ## References
 - SKA Framework: Quantiota Research
-- Original Paper on SKA: "Structured Knowledge Accumulation: An Autonomous Framework for Layer-Wise Entropy Reduction in Neural Learning" (Bouarfa Mahi, Quantiota)
+- Original Paper on SKA: [DOI: 10.48550/arXiv.2503.13942](http://dx.doi.org/10.48550/arXiv.2503.13942)
 - Scikit-learn Documentation: Iris Dataset
